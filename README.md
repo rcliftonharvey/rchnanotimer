@@ -41,7 +41,7 @@ Depending on your compiler and workspace settings, you will probably have to adj
 #include "rchnanotimer.h"
 ```
 
-To avoid possible collisions with other libraries you may be using in your projects, the NanoTimer class resides in the **RCH::** namespace by default. You're of course welcome to change the namespace in the [rchnanotimer.h](https://github.com/rcliftonharvey/nanotimer/tree/master/include/rchnanotimer.h) main include.
+To avoid possible collisions with other libraries you may be using in your projects, the NanoTimer class resides in the **RCH::** namespace by default. You're of course welcome to change the namespace in the [rchnanotimer.h](https://github.com/rcliftonharvey/rchnanotimer/tree/master/include/rchnanotimer.h) main include.
 
 Since the NanoTimer is not stateful, you can instantiate it anywhere you want: in your header or implementation files, on the fly, when and where you need it. To get started, go ahead and instantiate a NanoTimer class anywhere in your code.
 ```c++
