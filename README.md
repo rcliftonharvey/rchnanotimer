@@ -1,5 +1,5 @@
 # RCH::NanoTimer
-#### Nanosecond precision code and benchmarking timer in pure C++
+#### Nanosecond precision benchmarking timer in pure C++
 
 -------------------------------------------------------------------------------------------------------
 
