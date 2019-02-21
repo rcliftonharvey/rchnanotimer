@@ -833,7 +833,7 @@ namespace RCH
         template <typename RETURNTYPE=RCH_NANOTIMER_DATATYPE>
         const RETURNTYPE scale (const RCH_NANOTIMER_TIMESTAMP& Time) const
         {
-            return (1e-9 * std::chrono::time_point_cast<std::chrono::nanoseconds>(Time).time_since_epoch().count()) / timebase.factor();
+            return std::chrono::time_point_cast<std::chrono::nanoseconds>(Time).time_since_epoch().count() / timebase.factor();
         }
         
         // Returns -1 if no split with this ID found, returns number index if split with this ID found
